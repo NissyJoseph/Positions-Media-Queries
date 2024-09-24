@@ -64,7 +64,7 @@
     border-radius: 10px;
     margin: 30px;
     background-color: lightgreen;
-
+   
 }
 
 #sticky{
@@ -75,15 +75,19 @@
     border-radius: 10px;
     margin: 30px;
     background-color: lightcoral;
+    opacity: 50%;
+    backface-visibility: 200px;
 }
 
 #fixed{
     position: fixed;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin: 30px;
-    background-color: lightblue;
+    bottom: 0;
+    background-color: black;
+    padding: 15px;
+    padding-left: 850px;
+    padding-right: 850px;
+    color: white;
+    margin: 0;
 }
 
 /* MEDIAQUERIES */
@@ -91,15 +95,18 @@
     border-radius: 30px;
     margin: 30px;
     padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1000;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:500px){
     #Media{
         background-color: red;
     }
 }
 
-@media screen and (min-width:301px) and (max-width:719px){
+@media screen and (min-width:501px) and (max-width:719px){
     #Media{
         background-color: greenyellow;
     }
