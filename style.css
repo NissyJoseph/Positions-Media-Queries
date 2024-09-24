@@ -80,10 +80,10 @@
 #fixed{
     position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
     padding: 15px;
-    padding-left: 850px;
-    padding-right: 850px;
     color: white;
     margin: 0;
     z-index: 1000;
