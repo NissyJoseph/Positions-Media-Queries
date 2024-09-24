@@ -1,0 +1,113 @@
+/* STYLE FOR FLEX */
+
+.flexcom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.computer{
+    border:  3px solid ;
+    border-radius: 10px;
+    background-color: darksalmon;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* STYLE FOR GRID */
+
+.gridcom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socialmedia{
+    border:  3px solid ;
+    border-radius: 10px;
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* POSITION */
+
+.position{
+       text-align: center;
+}
+
+#static{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+#relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin: 30px;
+}
+
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: lightgreen;
+
+}
+
+#sticky{
+    position: sticky;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: lightcoral;
+}
+
+#fixed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: lightblue;
+}
+
+/* MEDIAQUERIES */
+#Media{
+    border-radius: 30px;
+    margin: 30px;
+    padding: 100px;
+}
+
+@media screen and (max-width:300px){
+    #Media{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:301px) and (max-width:719px){
+    #Media{
+        background-color: greenyellow;
+    }
+}
+
+@media screen and (min-width:720px){
+    #Media{
+        background-color:blue;
+    }
+}
+
